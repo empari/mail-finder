@@ -1,0 +1,34 @@
+{
+    "name": "empari/mail-finder",
+	"version": "1.0.0",
+    "description": "Quickly find the server-verified email address of people at any company.",
+    "keywords": ["empari", "laravel", "library", "mail", "finder"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Team Empari",
+            "email": "suporte@empari.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Empari\\MailFinder\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.4",
+    }
+}
