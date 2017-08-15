@@ -1,6 +1,6 @@
 {
     "name": "empari/mail-finder",
-	"version": "1.0.0",
+	"version": "1.0.1",
     "description": "Quickly find the server-verified email address of people at any company.",
     "keywords": ["empari", "laravel", "library", "mail", "finder"],
     "type": "library",
@@ -29,6 +29,6 @@
     "require": {
         "php": "^7.0",
         "guzzlehttp/guzzle": "^6.3",
-        "illuminate/support": "^5.4",
+        "illuminate/support": "^5.4"
     }
 }
